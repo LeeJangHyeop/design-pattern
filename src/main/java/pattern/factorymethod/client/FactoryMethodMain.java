@@ -1,8 +1,8 @@
-package pattern.factory.client;
+package pattern.factorymethod.client;
 
-import pattern.factory.creator.AirFilter;
-import pattern.factory.creator.BagFilter;
-import pattern.factory.creator.Product;
+import pattern.factorymethod.creator.AirFilter;
+import pattern.factorymethod.creator.BagFilter;
+import pattern.factorymethod.creator.Product;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,7 +11,7 @@ import java.util.Random;
 /**
  * Created by LeeJangHyeop on 2018. 7. 1..
  */
-public class FactoryMain {
+public class FactoryMethodMain {
 
     private static Product product;
 
@@ -21,7 +21,7 @@ public class FactoryMain {
     }
 
     static void initialize() {
-        // Client pick a factory type
+        // Client pick a factorymethod type
         String productString = orderRandomProduct();
 
         if("AirFilter".equals(productString)) {

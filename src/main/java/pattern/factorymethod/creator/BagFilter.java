@@ -1,7 +1,7 @@
-package pattern.factory.creator;
+package pattern.factorymethod.creator;
 
-import pattern.factory.product.BagFilterProduction;
-import pattern.factory.product.Production;
+import pattern.factorymethod.product.BagFilterProduction;
+import pattern.factorymethod.product.Production;
 
 /**
  * Created by LeeJangHyeop on 2018. 7. 1..
