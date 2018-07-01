@@ -1,4 +1,7 @@
-package pattern.factory;
+package pattern.factory.creator;
+
+import pattern.factory.product.AirFilterProduction;
+import pattern.factory.product.Production;
 
 /**
  * Created by LeeJangHyeop on 2018. 7. 1..

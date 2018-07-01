@@ -1,4 +1,8 @@
-package pattern.factory;
+package pattern.factory.client;
+
+import pattern.factory.creator.AirFilter;
+import pattern.factory.creator.BagFilter;
+import pattern.factory.creator.Product;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,11 +13,11 @@ import java.util.Random;
  */
 public class FactoryMain {
 
-    private static Production production;
+    private static Product product;
 
     public static void main(String[] args) {
         initialize();
-        production.produce();
+        runBusinessLogic();
     }
 
     static void initialize() {
@@ -21,11 +25,11 @@ public class FactoryMain {
         String productString = orderRandomProduct();
 
         if("AirFilter".equals(productString)) {
-            production = new AirFilterProduction();
+            product = new AirFilter();
         }
 
         else if("BagFilter".equals(productString)) {
-            production = new BagFilterProduction();
+            product = new BagFilter();
         }
         else {
             System.out.println("Error!!!");
@@ -40,5 +44,9 @@ public class FactoryMain {
         productList.add("BagFilter");
 
         return productList.get(rnd.nextInt(2));
+    }
+
+    static void runBusinessLogic() {
+        product.production();
     }
 }

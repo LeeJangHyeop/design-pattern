@@ -1,4 +1,4 @@
-package pattern.factory;
+package pattern.factory.product;
 
 /**
  * Created by LeeJangHyeop on 2018. 7. 1..
