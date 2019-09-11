@@ -1,4 +1,4 @@
-package patterns.creational.factorymethod.product;
+package patterns.creational.factorymethod.first.product;
 
 /**
  * Created by LeeJangHyeop on 2018. 7. 1..

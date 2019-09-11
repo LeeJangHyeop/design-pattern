@@ -1,13 +1,13 @@
-package patterns.creational.factorymethod.product;
+package patterns.creational.factorymethod.first.product;
 
 /**
  * Created by LeeJangHyeop on 2018. 7. 1..
  */
-public class BagFilterProduction implements Production {
+public class AirFilterProduction implements Production {
 
     @Override
     public void make() {
-        System.out.println(this.getClass().getSimpleName().toString() + " is  created");
+        System.out.println(this.getClass().getSimpleName().toString() + " is created");
     }
 
     public void useStock() {

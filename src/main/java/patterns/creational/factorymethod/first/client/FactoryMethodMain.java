@@ -1,8 +1,8 @@
-package patterns.creational.factorymethod.client;
+package patterns.creational.factorymethod.first.client;
 
-import patterns.creational.factorymethod.creator.AirFilter;
-import patterns.creational.factorymethod.creator.BagFilter;
-import patterns.creational.factorymethod.creator.Product;
+import patterns.creational.factorymethod.first.creator.AirFilter;
+import patterns.creational.factorymethod.first.creator.BagFilter;
+import patterns.creational.factorymethod.first.creator.Product;
 
 import java.util.ArrayList;
 import java.util.List;
