@@ -15,11 +15,11 @@ public class MemoryStorage {
         super();
     }
 
-    static MemoryStorage getInstance() {
+
+    // exist performance problem
+    static synchronized MemoryStorage getInstance() {
         if(memoryStorage == null) {
-            synchronized (MemoryStorage.class) {
-                memoryStorage= new MemoryStorage();
-            }
+            memoryStorage= new MemoryStorage();
         }
         return memoryStorage;
     }
