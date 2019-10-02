@@ -1,6 +1,6 @@
-package patterns.structural.adapter.client;
+package patterns.structural.adapter.clazz.client;
 
-import patterns.structural.adapter.plug.*;
+import patterns.structural.adapter.clazz.plug.*;
 
 /**
  * Created by LeeJangHyeop on 2018. 7. 10..

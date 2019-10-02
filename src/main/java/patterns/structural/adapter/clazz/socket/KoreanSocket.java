@@ -1,4 +1,4 @@
-package patterns.structural.adapter.socket;
+package patterns.structural.adapter.clazz.socket;
 
 /**
  * Created by LeeJangHyeop on 2018. 7. 10..

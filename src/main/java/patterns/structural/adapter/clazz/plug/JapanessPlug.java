@@ -1,4 +1,4 @@
-package patterns.structural.adapter.plug;
+package patterns.structural.adapter.clazz.plug;
 
 /**
  * Created by LeeJangHyeop on 2018. 7. 10..

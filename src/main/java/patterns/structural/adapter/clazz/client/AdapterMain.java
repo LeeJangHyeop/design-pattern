@@ -1,8 +1,8 @@
-package patterns.structural.adapter.client;
+package patterns.structural.adapter.clazz.client;
 
-import patterns.structural.adapter.plug.JapanessPlug;
-import patterns.structural.adapter.plug.KoreanPlug;
-import patterns.structural.adapter.socket.KoreanSocket;
+import patterns.structural.adapter.clazz.plug.JapanessPlug;
+import patterns.structural.adapter.clazz.plug.KoreanPlug;
+import patterns.structural.adapter.clazz.socket.KoreanSocket;
 
 /**
  * Created by LeeJangHyeop on 2018. 7. 10..

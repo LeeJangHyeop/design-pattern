@@ -1,6 +1,6 @@
-package patterns.structural.adapter.plug;
+package patterns.structural.adapter.clazz.plug;
 
-import patterns.structural.adapter.socket.Socket;
+import patterns.structural.adapter.clazz.socket.Socket;
 
 /**
  * Created by LeeJangHyeop on 2018. 7. 10..
